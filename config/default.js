@@ -87,5 +87,5 @@ module.exports = {
     stripePubKey: 'pk_test_1yMRIhidzZOrBJ84mJNHqa4O',
     stripePriKey: 'REMOVED_SECRET',
   },
-  apiGatewayUrl: 'http://localhost:4006/api-gateway/',
+  apiGatewayUrl: 'http://localhost:4100/api-gateway/',
 };
