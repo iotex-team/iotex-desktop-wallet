@@ -39,9 +39,11 @@ module.exports = {
       level: "debug"
     },
     iotexAntenna: process.env.IOTEX_CORE || "35.239.122.109:80",
-    sendgridApiKey: process.env.SENDGRID_API_KEY,
+    sendgridApiKey:
+      process.env.SENDGRID_API_KEY ||
+      "REMOVED_SECRET",
     sendgrid: {
-      url: "/v3/api_keys",
+      url: "/v3/contactdb/recipients",
       method: "POST"
     }
   },
